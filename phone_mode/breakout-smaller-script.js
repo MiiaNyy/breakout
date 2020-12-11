@@ -1,6 +1,5 @@
 let startBtn = document.querySelector(".start-btn");
 let startScreen = document.querySelector(".start");
-let tipMessage = document.querySelector(".tip");
 let navigation = document.querySelector('.navigation');
 
 let canvas = document.getElementById("myCanvas");
@@ -396,7 +395,7 @@ function mouseMoveHandler(e) {
 function touchHandler(e) {
     let touchX = e.touches[0].pageX;
     if(touchX > 33 && touchX < 217) {
-        paddleX = touchX - paddleWidth / 2;
+        paddleX = touchX - paddleWidth / 2 ;
     }
 }
 
@@ -462,7 +461,6 @@ startBtn.addEventListener('click', function () {
     startScreen.style.display = 'none';
     navigation.style.display = 'none';
     canvas.style.display = 'block';
-    tipMessage.style.display = 'block';
     //Run game loop once to draw the background
     gameLoop();
     pauseGame();
