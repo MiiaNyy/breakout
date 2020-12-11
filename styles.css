@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    background-color: rgb(26, 24, 24);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    text-shadow: none;
+    color: rgb(151, 174, 197);
+    text-decoration: none;
+}
+
+a:hover {
+    color:#c06eb5;
+
+}
+
+.navigation {
+    text-align: start;
+    font-family: 'VT323', monospace;
+    color: rgb(195, 197, 199);
+    text-shadow: 0px 2px 7px rgba(98, 250, 250, 0.226);
+}
+
+.start {
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid #0a0a0a;
+    box-shadow: rgba(155, 228, 238, 0.589) 0px 1px 3px, rgba(181, 217, 250, 0.623) 0px 1px 2px;
+    width: 250px;
+    height: 400px;
+    margin: 100px auto;
+    background-color: rgb(42, 42, 42);
+    color: rgb(197, 194, 194);
+    text-shadow: 0px 2px 7px rgba(98, 250, 250, 0.383);
+    font-size: 15px;
+}
+
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-bottom: 0;
+    text-shadow: 0px 2px 7px rgba(98, 250, 250, 0.397);
+}
+
+.start-btn {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #7fc7ce;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    color: rgb(195, 197, 199);
+    text-shadow: 0px 2px 7px rgba(98, 250, 250, 0.226);
+    box-shadow: rgba(155, 228, 238, 0.589) 0px 1px 3px, rgba(181, 217, 250, 0.623) 0px 1px 2px;
+    background-color: rgb(42, 42, 42);
+}
+
+.start-btn:hover {
+    text-shadow: 0px 2px 7px rgba(250, 98, 250, 0.226);
+    border: 1px solid #c06eb5;
+    background-color: rgb(42, 42, 42);
+    box-shadow: rgba(238, 155, 234, 0.589) 0px 1px 3px, rgba(250, 181, 238, 0.623) 0px 1px 2px;
+}
+
+.tip {
+    font-family: 'VT323', monospace;
+    color: rgb(195, 197, 199);
+    display: none;
+    text-shadow: 0px 2px 7px rgba(98, 250, 250, 0.226);
+}
+
+#myCanvas {
+    display: none;
+    border: 5px solid #1f1e1e;
+    box-shadow: rgba(102, 150, 156, 0.589) 0px 1px 3px, rgba(113, 136, 156, 0.623) 0px 1px 2px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(42, 42, 42);
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 1;
+}
+
